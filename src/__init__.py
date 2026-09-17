@@ -1,0 +1,1 @@
+"""Core package for the educational local LLM evaluation toolkit."""
