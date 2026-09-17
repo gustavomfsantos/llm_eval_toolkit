@@ -1,0 +1,122 @@
+[
+  {
+    "id": "fqa_001",
+    "prompt": "What is the capital city of Japan?",
+    "expected": "Tokyo",
+    "category": "geography"
+  },
+  {
+    "id": "fqa_002",
+    "prompt": "Which continent contains the Sahara Desert?",
+    "expected": "Africa",
+    "category": "geography"
+  },
+  {
+    "id": "fqa_003",
+    "prompt": "What is the longest river in South America?",
+    "expected": "The Amazon River",
+    "category": "geography"
+  },
+  {
+    "id": "fqa_004",
+    "prompt": "Which ocean lies between Africa and Australia?",
+    "expected": "The Indian Ocean",
+    "category": "geography"
+  },
+  {
+    "id": "fqa_005",
+    "prompt": "What is the smallest country in the world by area?",
+    "expected": "Vatican City",
+    "category": "geography"
+  },
+  {
+    "id": "fqa_006",
+    "prompt": "What gas do plants absorb during photosynthesis?",
+    "expected": "Carbon dioxide",
+    "category": "science"
+  },
+  {
+    "id": "fqa_007",
+    "prompt": "What is the chemical symbol for gold?",
+    "expected": "Au",
+    "category": "science"
+  },
+  {
+    "id": "fqa_008",
+    "prompt": "How many bones are in the typical adult human body?",
+    "expected": "206",
+    "category": "science"
+  },
+  {
+    "id": "fqa_009",
+    "prompt": "What force pulls objects toward Earth?",
+    "expected": "Gravity",
+    "category": "science"
+  },
+  {
+    "id": "fqa_010",
+    "prompt": "What is the process by which liquid water becomes vapor?",
+    "expected": "Evaporation",
+    "category": "science"
+  },
+  {
+    "id": "fqa_011",
+    "prompt": "Who was the first president of the United States?",
+    "expected": "George Washington",
+    "category": "history"
+  },
+  {
+    "id": "fqa_012",
+    "prompt": "In which year did the Berlin Wall fall?",
+    "expected": "1989",
+    "category": "history"
+  },
+  {
+    "id": "fqa_013",
+    "prompt": "Which ancient civilization built Machu Picchu?",
+    "expected": "The Inca civilization",
+    "category": "history"
+  },
+  {
+    "id": "fqa_014",
+    "prompt": "Who wrote the Declaration of Independence's main draft?",
+    "expected": "Thomas Jefferson",
+    "category": "history"
+  },
+  {
+    "id": "fqa_015",
+    "prompt": "Which empire used the road network called the cursus publicus?",
+    "expected": "The Roman Empire",
+    "category": "history"
+  },
+  {
+    "id": "fqa_016",
+    "prompt": "What is 12 multiplied by 8?",
+    "expected": "96",
+    "category": "math"
+  },
+  {
+    "id": "fqa_017",
+    "prompt": "What is the square root of 81?",
+    "expected": "9",
+    "category": "math"
+  },
+  {
+    "id": "fqa_018",
+    "prompt": "What is 15 percent of 200?",
+    "expected": "30",
+    "category": "math"
+  },
+  {
+    "id": "fqa_019",
+    "prompt": "How many degrees are in a right angle?",
+    "expected": "90",
+    "category": "math"
+  },
+  {
+    "id": "fqa_020",
+    "prompt": "What is the perimeter of a square with side length 4?",
+    "expected": "16",
+    "category": "math"
+  }
+]
