@@ -60,7 +60,9 @@ def score_hallucination_batch(results_df: pd.DataFrame) -> pd.DataFrame:
         A copy with hallucination score, reasoning, and pass columns added.
 
     Example:
-        >>> frame = pd.DataFrame([{"prompt": "Q", "response_text": "A", "expected": "A"}])
+        >>> frame = pd.DataFrame(
+        ...     [{"prompt": "Q", "response_text": "A", "expected": "A"}]
+        ... )
         >>> "hallucination_passed" in score_hallucination_batch(frame)
         True
     """
