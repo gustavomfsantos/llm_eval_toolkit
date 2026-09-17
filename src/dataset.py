@@ -75,7 +75,11 @@ def preview_dataset(dataset: list[dict], n: int = 3) -> None:
         >>> preview_dataset([{"id": "case_1", "prompt": "Hello"}], n=1)
     """
     # Always preview before running - catching a bad case here saves inference time.
-    logger.info("Dataset preview: showing %d of %d cases", min(n, len(dataset)), len(dataset))
+    logger.info(
+        "Dataset preview: showing %d of %d cases",
+        min(n, len(dataset)),
+        len(dataset),
+    )
     for case in dataset[:n]:
         logger.info("Case %s: %s", case.get("id", "unknown"), case)
 

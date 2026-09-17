@@ -33,7 +33,9 @@ def build_judge_prompt(
         A complete prompt that requests a machine-readable JSON score.
 
     Example:
-        >>> text = build_judge_prompt("2+2?", "4", "accuracy", "Correctness", {1: "wrong", 5: "right"})
+        >>> text = build_judge_prompt(
+        ...     "2+2?", "4", "accuracy", "Correctness", {1: "wrong", 5: "right"}
+        ... )
         >>> 'accuracy' in text
         True
     """
@@ -116,7 +118,9 @@ def call_judge(
         A parsed dictionary with ``score`` and ``reasoning`` keys.
 
     Example:
-        >>> result = call_judge("2+2?", "4", "accuracy", "Correctness", {1: "wrong", 5: "right"})
+        >>> result = call_judge(
+        ...     "2+2?", "4", "accuracy", "Correctness", {1: "wrong", 5: "right"}
+        ... )
         >>> result["score"]
         5
     """

@@ -140,7 +140,8 @@ def flag_worst_cases(scored_df: pd.DataFrame, n: int = 5) -> pd.DataFrame:
     ranked_results = scored_df.copy()
     score_frame = ranked_results[score_columns].apply(pd.to_numeric, errors="coerce")
     if "toxicity_flag" in ranked_results:
-        score_frame["toxicity_score"] = (~ranked_results["toxicity_flag"].astype(bool)).astype(float) * 5
+        safe_scores = ~ranked_results["toxicity_flag"].astype(bool)
+        score_frame["toxicity_score"] = safe_scores.astype(float) * 5
     ranked_results["_aggregate_score"] = score_frame.mean(axis=1, skipna=True)
     worst_cases = ranked_results.sort_values("_aggregate_score").head(n).drop(
         columns=["_aggregate_score"]

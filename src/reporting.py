@@ -75,7 +75,9 @@ def generate_html_report(
         if not isinstance(values, dict) or "pass_rate" not in values:
             continue
         pass_rate = float(values["pass_rate"])
-        color_class = "green" if pass_rate >= 0.8 else "yellow" if pass_rate >= 0.6 else "red"
+        color_class = (
+            "green" if pass_rate >= 0.8 else "yellow" if pass_rate >= 0.6 else "red"
+        )
         cards.append(
             f"""<section class="card {color_class}">
                 <h2>{html.escape(dimension.title())}</h2>
@@ -123,7 +125,8 @@ def generate_html_report(
 body {{ font-family: Arial, sans-serif; margin: 2rem; color: #17202a; }}
 header {{ border-bottom: 3px solid #17202a; margin-bottom: 1.5rem; }}
 .cards {{ display: flex; flex-wrap: wrap; gap: 1rem; margin-bottom: 2rem; }}
-.card {{ border-left: 6px solid; padding: 1rem; min-width: 170px; background: #f5f6f7; }}
+.card {{ border-left: 6px solid; padding: 1rem; min-width: 170px;
+background: #f5f6f7; }}
 .card.green {{ border-color: #238636; }}
 .card.yellow {{ border-color: #b08800; }}
 .card.red {{ border-color: #cf222e; }}
@@ -162,7 +165,9 @@ def print_console_summary(summary: dict) -> None:
         None.
 
     Example:
-        >>> print_console_summary({"relevance": {"mean_score": 4.5, "pass_rate": 1.0, "n": 2}})
+        >>> print_console_summary(
+        ...     {"relevance": {"mean_score": 4.5, "pass_rate": 1.0, "n": 2}}
+        ... )
     """
     logger.info("=" * 60)
     logger.info("LLM EVALUATION SCOREBOARD")

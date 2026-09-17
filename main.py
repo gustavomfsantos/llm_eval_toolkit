@@ -4,7 +4,11 @@ clearly logged so you can follow what is happening and why.
 
 from config import OLLAMA_MODEL, RESULTS_DIR
 from logger import get_logger
-from src.aggregator import compute_dimension_summary, compute_overall_pass_rate, flag_worst_cases
+from src.aggregator import (
+    compute_dimension_summary,
+    compute_overall_pass_rate,
+    flag_worst_cases,
+)
 from src.dataset import load_dataset, preview_dataset
 from src.reporting import (
     generate_html_report,
