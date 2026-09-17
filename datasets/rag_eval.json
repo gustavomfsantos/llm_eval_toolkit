@@ -1,0 +1,107 @@
+[
+  {
+    "id": "rag_001",
+    "context": "The Northstar savings account has no monthly maintenance fee. It pays 3.2 percent annual interest when the balance is at least 500 dollars. Interest is calculated daily and credited to the account at the end of each month.",
+    "prompt": "What balance is required to earn the Northstar account's annual interest rate?",
+    "expected": "At least 500 dollars",
+    "category": "finance"
+  },
+  {
+    "id": "rag_002",
+    "context": "Customers can open a BrightBank checking account online in about ten minutes. The account includes a debit card and free electronic statements. BrightBank charges two dollars for each paper statement mailed to the customer.",
+    "prompt": "What does BrightBank charge for a mailed paper statement?",
+    "expected": "Two dollars",
+    "category": "finance"
+  },
+  {
+    "id": "rag_003",
+    "context": "The Harbor fund invests only in short-term government securities. Its management fee is 0.18 percent per year, taken from the fund's assets. The fund does not guarantee a positive return in every calendar year.",
+    "prompt": "What type of securities does the Harbor fund buy?",
+    "expected": "Short-term government securities",
+    "category": "finance"
+  },
+  {
+    "id": "rag_004",
+    "context": "A Greenline certificate has a twelve-month term and requires a minimum opening deposit of 1,000 dollars. Early withdrawals are allowed, but the customer forfeits the last ninety days of earned interest.",
+    "prompt": "What happens to interest after an early Greenline withdrawal?",
+    "expected": "The last ninety days of earned interest are forfeited",
+    "category": "finance"
+  },
+  {
+    "id": "rag_005",
+    "context": "The Luna plant grows best in bright, indirect light. Its soil should dry out about two centimeters below the surface before watering again. During winter, the plant usually needs water less often than once a week.",
+    "prompt": "What kind of light is best for the Luna plant?",
+    "expected": "Bright, indirect light",
+    "category": "science"
+  },
+  {
+    "id": "rag_006",
+    "context": "Researchers measured the stream at three locations after rainfall. The upstream location had the clearest water, while the downstream location had the highest concentration of suspended sediment in the sample.",
+    "prompt": "Which location had the most suspended sediment?",
+    "expected": "The downstream location",
+    "category": "science"
+  },
+  {
+    "id": "rag_007",
+    "context": "The classroom experiment uses a blue LED, a light sensor, and a cardboard enclosure. Students record the sensor reading every thirty seconds. The enclosure is used to block stray room light from reaching the sensor.",
+    "prompt": "Why is the cardboard enclosure used?",
+    "expected": "To block stray room light from reaching the sensor",
+    "category": "science"
+  },
+  {
+    "id": "rag_008",
+    "context": "The museum's fossil display includes a fern imprint preserved in shale. The imprint shows a branching leaf pattern but no preserved color. The label dates the surrounding rock to the late Paleozoic era.",
+    "prompt": "What kind of fossil is in the museum display?",
+    "expected": "A fern imprint",
+    "category": "science"
+  },
+  {
+    "id": "rag_009",
+    "context": "The Trailmark backpack has a 22-liter capacity and a padded laptop sleeve that fits computers up to 14 inches. Its outer fabric is recycled nylon, and the pack weighs 780 grams before accessories are added.",
+    "prompt": "What is the Trailmark backpack's capacity?",
+    "expected": "22 liters",
+    "category": "product"
+  },
+  {
+    "id": "rag_010",
+    "context": "The Ember kettle turns off automatically after the water reaches a boil. It holds 1.5 liters and has a removable mesh filter near the spout. The kettle's power cord is stored in the circular base.",
+    "prompt": "How much water does the Ember kettle hold?",
+    "expected": "1.5 liters",
+    "category": "product"
+  },
+  {
+    "id": "rag_011",
+    "context": "The FieldNote tablet includes a stylus, a 10.4-inch display, and 128 gigabytes of storage. It supports Wi-Fi but does not include cellular connectivity in the standard model.",
+    "prompt": "Does the standard FieldNote tablet include cellular connectivity?",
+    "expected": "No, it supports Wi-Fi but not cellular connectivity",
+    "category": "product"
+  },
+  {
+    "id": "rag_012",
+    "context": "The Solace chair has an adjustable lumbar pad and a seat made from molded foam. Its armrests move vertically but do not pivot inward. The chair is shipped unassembled in one box.",
+    "prompt": "Which chair component can be adjusted vertically?",
+    "expected": "The armrests",
+    "category": "product"
+  },
+  {
+    "id": "rag_013",
+    "context": "The community garden opens its gates at seven in the morning on weekdays. Weekend access begins at eight, and all visitors must sign the entry sheet near the tool shed.",
+    "prompt": "When does the community garden open on weekdays?",
+    "expected": "Seven in the morning",
+    "category": "general"
+  },
+  {
+    "id": "rag_014",
+    "context": "The library's quiet room has twelve desks and is located on the second floor. It can be reserved for up to two hours at a time. Food is not permitted, although covered drinks are allowed.",
+    "prompt": "How long can the library quiet room be reserved?",
+    "expected": "Up to two hours",
+    "category": "general"
+  },
+  {
+    "id": "rag_015",
+    "context": "The Riverside market accepts reusable containers at its bulk food stalls. Vendors weigh the empty container before filling it and subtract that weight at checkout. The market is closed on Mondays.",
+    "prompt": "How is the reusable container handled at checkout?",
+    "expected": "Its empty weight is subtracted",
+    "category": "general"
+  }
+]
